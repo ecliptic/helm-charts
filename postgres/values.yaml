@@ -19,4 +19,4 @@ persistence:
   enabled: true
   storageClass: generic
   accessMode: ReadWriteOnce
-  size: 1Gi
+  size: 8Gi
