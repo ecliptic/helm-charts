@@ -1,0 +1,22 @@
+## postgres image version
+## ref: https://hub.docker.com/r/library/postgres/tags/
+##
+imageTag: "9.6"
+cpu: 100m
+memory: 256Mi
+
+## Create a database user
+##
+# postgresUser: my-user
+# postgresPassword: automatically-generate
+
+## Create a database
+##
+# postgresDatabase: my-database
+
+## Persist data to a persitent volume
+persistence:
+  enabled: true
+  storageClass: generic
+  accessMode: ReadWriteOnce
+  size: 1Gi

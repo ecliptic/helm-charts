@@ -1,0 +1,16 @@
+name: postgres
+version: 1.0.0
+description: Chart for PostgreSQL
+keywords:
+- postgres
+- postgresql
+- database
+- sql
+home: https://www.postgresql.com/
+sources:
+- https://github.com/kubernetes/charts
+- https://github.com/docker-library/postgresql
+maintainers:
+- name: Brandon Konkle
+  email: brandon@ecliptic.io
+engine: gotpl
