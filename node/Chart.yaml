@@ -1,0 +1,14 @@
+name: node
+version: 1.0.0
+description: Chart for applications based on Node
+keywords:
+- node
+- application
+home: https://nodejs.org/en/
+sources:
+- https://github.com/kubernetes/charts
+- https://github.com/docker-library/postgresql
+maintainers:
+- name: Brandon Konkle
+  email: brandon@ecliptic.io
+engine: gotpl

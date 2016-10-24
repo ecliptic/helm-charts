@@ -1,0 +1,7 @@
+imageName: "node"
+imageTag: "boron"
+cpu: 100m
+memory: 256Mi
+env:
+  - name: PORT
+    value: "3000"
