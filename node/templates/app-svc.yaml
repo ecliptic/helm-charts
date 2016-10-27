@@ -11,7 +11,7 @@ spec:
   type: LoadBalancer
   ports:
   - name: node
-    port: 3000
+    port: {{ .Values.port }}
     targetPort: node
   selector:
     app: {{ template "fullname" . }}

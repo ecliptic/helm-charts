@@ -8,7 +8,7 @@ metadata:
     release: "{{ .Release.Name }}"
     heritage: "{{ .Release.Service }}"
 spec:
-  replicas: 1
+  replicas: {{ .Values.replicas }}
   selector:
     app: {{ template "fullname" . }}
   template:
@@ -29,6 +29,8 @@ spec:
             cpu: "{{ .Values.cpu }}"
             memory: "{{ .Values.memory }}"
         env:
+          - name: PORT
+            value: "{{ .Values.port }}"
         {{- range .Values.env }}
           - name: {{ .name }}
             value: {{ .value }}

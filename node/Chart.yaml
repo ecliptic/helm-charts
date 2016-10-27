@@ -1,13 +1,13 @@
 name: node
-version: 1.0.0
-description: Chart for applications based on Node
+version: 2.0.0
+description: Chart for derivatives of the official Node images
 keywords:
 - node
 - application
 home: https://nodejs.org/en/
 sources:
 - https://github.com/kubernetes/charts
-- https://github.com/docker-library/postgresql
+- https://github.com/docker-library/node
 maintainers:
 - name: Brandon Konkle
   email: brandon@ecliptic.io
