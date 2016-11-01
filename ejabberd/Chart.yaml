@@ -1,0 +1,15 @@
+name: ejabberd
+version: 1.0.0
+description: Chart for deploying a single-node ejabberd server
+keywords:
+- ejabberd
+- xmpp
+- chat
+home: https://www.ejabberd.im/
+sources:
+- https://github.com/kubernetes/charts
+- https://github.com/ecliptic/docker-ejabberd-ubuntu
+maintainers:
+- name: Brandon Konkle
+  email: brandon@ecliptic.io
+engine: gotpl

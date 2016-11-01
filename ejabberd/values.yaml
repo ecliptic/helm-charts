@@ -1,0 +1,24 @@
+imageName: ecliptic/ejabberd-ubuntu
+imageTag: latest
+cpu: 100m
+memory: 256Mi
+
+erlangNode: ejabberd
+xmppDomain: localhost
+admins: admin@localhost
+users: admin@localhost
+
+httpWebsocket: false
+httpApi: false
+tls: false
+
+ports:
+  c2s: 5222
+  s2s: 5269
+  http: 5280
+
+persistence:
+  enabled: true
+  storageClass: generic
+  accessMode: ReadWriteOnce
+  size: 1Gi
