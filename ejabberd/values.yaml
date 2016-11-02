@@ -3,7 +3,6 @@ imageTag: latest
 cpu: 100m
 memory: 256Mi
 
-erlangNode: ejabberd
 xmppDomain: localhost
 admins: admin@localhost
 users: admin@localhost

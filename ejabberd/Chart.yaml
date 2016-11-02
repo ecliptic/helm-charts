@@ -1,5 +1,5 @@
 name: ejabberd
-version: 1.0.0
+version: 2.0.0
 description: Chart for deploying a single-node ejabberd server
 keywords:
 - ejabberd
